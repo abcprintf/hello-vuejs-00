@@ -51,6 +51,9 @@ export default {
         this.myListOfVideos = [];
       }
     }
+  },
+  computed() {
+    console.log("computed....");
   }
 }
 </script>
